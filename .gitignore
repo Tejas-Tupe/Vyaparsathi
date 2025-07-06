@@ -1,0 +1,9 @@
+# .gitignore
+node_modules/
+.env
+.env.local
+.vscode/
+dist/
+build/
+.DS_Store
+npm-debug.log
