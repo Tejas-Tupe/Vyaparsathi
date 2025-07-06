@@ -123,7 +123,7 @@ I'm open to collaboration for:
 
 ## 🧑‍💻 Final Product Proudly Developed & Maintained By
 
-# 🚀 **Tejas Tupe**
+#  **Tejas Tupe**
 
 `tupetejas265@gmail.com | https://www.linkedin.com/in/tejastupe | https://github.com/Tejas-Tupe`
 
