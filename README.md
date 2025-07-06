@@ -18,7 +18,7 @@ It is built for the **Indian market** — from Kirana stores to small hardware s
 
 ---
 
-## 🧠 How We Built It
+## 🧠 How i Built It
 
 We followed a clean, full-stack development methodology using modern web technologies. With a focus on scalability, security, and simplicity, the application was crafted from the ground up in two separate codebases:
 
@@ -55,7 +55,7 @@ Like any real-world product journey, Vyaparsathi's development wasn't without hu
 - Vanilla CSS (with custom dark theme)
 - React Router DOM
 - Axios / Fetch for API calls
-- Context API for Auth and Global State
+- Context API for Authentication & Authorization and Global State
 - Responsive Design (Mobile/Desktop)
 
 ### 🔧 Backend:
@@ -76,15 +76,14 @@ Like any real-world product journey, Vyaparsathi's development wasn't without hu
 - `controllers/` – Business logic handling  
 - `models/` – MongoDB schemas  
 - `middleware/` – Auth & error handling  
-- `server.js` – Entry point  
+- `index.js` – Entry point  
 
 ---
 
 ## 🌍 Live Deployment
 
-- **Frontend:** [Vyaparsathi Frontend on Render](https://vyaparsathi-frontend.onrender.com)
-- **Backend:** [Vyaparsathi API on Render](https://vyaparsathi.onrender.com)
-
+- **Link:** [Vyaparsathi](https://vyaparsathi-frontend.onrender.com)
+  
 ---
 
 ## 🌟 Upcoming Features
