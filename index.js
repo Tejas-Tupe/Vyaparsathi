@@ -6,8 +6,20 @@ import { log_in, openaccount, users } from "./Routes/Routes.js";
 
 let app = express();
 
+const allowedOrigins = [
+  'https://vyaparsathi-frontend.onrender.com',
+  'http://localhost:5173'
+];
+
 app.use(cors({
-  origin: 'https://vyaparsathi-frontend.onrender.com/',
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like curl or Postman)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
 
