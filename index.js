@@ -7,7 +7,7 @@ import { log_in, openaccount, users } from "./Routes/Routes.js";
 let app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://vyaparsathi-frontend.onrender.com/',
   credentials: true
 }));
 
