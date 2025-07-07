@@ -86,6 +86,18 @@ Like any real-world product journey, Vyaparsathi's development wasn't without hu
   
 ---
 
+## 🛡️ Uptime Monitoring
+
+To ensure the Vyaparsathi backend remains awake and responsive (especially on free-tier hosting), we’ve set up **UptimeRobot** to ping a dedicated health check route every 5 minutes.
+
+- ✅ **Backend Health Check Route:** [`/health`](https://vyaparsathi.onrender.com/health)  
+  Responds with a simple status message to confirm the server is running.
+
+- ✅ **Frontend & Backend Monitoring:**  
+  Monitored via [UptimeRobot](https://uptimerobot.com/) to prevent cold starts and maintain high availability.
+
+This setup ensures the app remains stable and responsive for users at all times — even when hosted on Render's free tier.
+
 ## 🌟 Upcoming Features
 
 - 📊 Business insights dashboard with analytics
